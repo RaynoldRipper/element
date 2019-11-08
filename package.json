@@ -1,0 +1,35 @@
+{
+  "name": "elements",
+  "version": "1.0.0",
+  "description": "learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReynoldRipper/sedona-adaptive.git"
+  },
+  "keywords": [
+    "sedona"
+  ],
+  "author": "Reynold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReynoldRipper/sedona-adaptive/issues"
+  },
+  "homepage": "https://github.com/ReynoldRipper/sedona-adaptive#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-normalize-scss": "^8.0.1"
+  }
+}

@@ -1,0 +1,13 @@
+body>div.video-wrapper{
+  display: none;
+  transition: all 0.3s;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba($color: $pikch-wrap-color, $alpha: 0.3);
+  &--active{
+    display: block;
+  }
+}

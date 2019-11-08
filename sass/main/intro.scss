@@ -1,0 +1,40 @@
+.intro {
+  font-family: $sub-font;
+  padding: 0;
+  margin:0px;
+  background: url(../../img/Box-Hero.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 483px;
+  h2{
+    font-size: 5.1rem;
+    color: $intro-h2;
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    color: #ffffff;
+    font-size: 1.6rem;
+    max-width: 450px;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+}
+
+.intro>div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.35)
+}
+
+.intro>div>div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  vertical-align: middle;
+}

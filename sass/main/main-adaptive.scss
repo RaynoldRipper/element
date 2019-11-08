@@ -1,0 +1,102 @@
+@media (min-width:$mobile-width) and (max-width:$mobile-max-width){
+  .preview{
+    div{
+      width: auto;
+      display: block;
+      margin: 0 5%;
+      >div:first-child{
+        width: auto;
+        margin: auto;
+      }
+      >div:last-child{
+        padding-top:50px;
+        text-align: center;
+        width: auto;
+        margin: auto;
+      }
+    }
+  }
+  .services>div{
+    width: auto;
+    margin: 80px 5%;
+    justify-content: center;
+    div:not(:first-child){
+      margin: auto;
+    }
+  }
+
+  .portfolio>div {
+    width: 100%;
+  }
+
+  .team>div{
+    width: 100%;
+    >div:last-child{
+    justify-content: center;
+    }
+  }
+  .form{
+    form{
+      padding-bottom: 30px;
+      width: 100%;
+      display: block;
+      >div{
+        width:100%;
+        text-align: center;
+        >input{
+          width: 90%;
+        }
+        >textarea{
+          width: 90%;
+          margin: 30px 0;
+        }
+      }
+    }
+  }
+}
+@media (max-width:$tablet-max-width) and (min-width:$tablet-width){
+  .preview{
+    >div{
+      width: auto;
+      margin: 0 5%;
+      >div:first-child{
+        flex-grow: 1;
+        margin: auto;
+        margin-right: 25px;
+      }
+      >div:last-child{
+        padding:0;
+        box-sizing: border-box;
+        text-align: center;
+        flex-grow: 1;
+        margin: auto;
+        margin-left: 25px;
+      }
+    }
+  }
+  .services>div{
+    width: auto;
+    margin: 80px 5%;
+    justify-content: center;
+    div:not(:first-child){
+      margin: auto;
+    }
+  }
+
+  .portfolio>div {
+    width: 100%;
+  }
+
+  .team>div{
+    width: 100%;
+    >div:last-child{
+    justify-content: center;
+    }
+  }
+
+  .form{
+    form{
+      width: 100%;
+    }
+  }
+}

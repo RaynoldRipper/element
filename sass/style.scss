@@ -1,0 +1,118 @@
+@import './variables.scss';
+@import './main/main.scss';
+@import './header/main-header.scss';
+@import './footer/main-footer.scss';
+@import './main/intro.scss';
+@import './pikches/pikches-wrapper.scss';
+@import './pikches/romich.scss';
+@import './main/main-adaptive.scss';
+
+
+@font-face { 
+  font-family: 'RobotoSlab'; 
+  src: url('../fonts/RobotoSlab-Regular.ttf');
+  font-weight: normal; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: 'RobotoSlab'; 
+  src: url('../fonts/RobotoSlab-Bold.ttf');
+  font-weight: bold; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: 'MyriadPro'; 
+  src: url('../fonts/MyriadPro-Regular.ttf');
+  font-weight: normal; 
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'MyriadPro ';
+  src: url('MyriadPro-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+html{
+  font-size: 10px;
+}
+
+body{
+  font-family: $main-font;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+p{
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.button{
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-family: $main-font;
+  font-size: 24px;
+  text-transform: uppercase;
+  background-color: $main-color;
+  padding: 15px 25px;
+  border: #fff solid 1px ;
+  transition: all 300ms;
+  &:hover{
+    background-color: #fff;
+    color: $main-color;
+    border-color: $main-color;
+    transition: all 300ms;
+  }
+  &:active{
+    transform: scale(0.9);
+  }
+    &--white{
+    background-color: #fff;
+    color: $main-color;
+    border-color: $main-color;
+    transition: all 300ms;
+    }
+  &--white:hover{
+    background-color: $main-color;
+    color: #ffffff;
+    border-color: $main-color;
+    transition: all 300ms;
+  }
+}
+
+@media(max-width:$tablet-max-width){
+  #top{
+   display: none !important; 
+  }
+}
+
+@media(min-width:$desktop-width){
+  #top {
+    text-align: center;
+    top: 0;
+    width: 70px;
+    cursor: pointer;
+    padding: 50vh 5px;
+    display: none;
+    font-size: 150%;
+    position: fixed;
+    transition: all 300ms;
+    &:hover{
+      background-color: rgba($color: #000000, $alpha: 0.2);
+    }
+  }
+}
