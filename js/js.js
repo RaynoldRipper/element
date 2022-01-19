@@ -6,7 +6,6 @@ video.addEventListener('click', function() {
     wrapper.classList.add('video-wrapper--active');
   }
 });
-
 wrapper.addEventListener('click', function() {
   if (wrapper.classList.contains('video-wrapper--active')) {
     wrapper.classList.remove('video-wrapper--active');
